@@ -125,7 +125,7 @@ machine(MachineType:L1Cache, "MSI cache")
 ```
 
 We have five different message buffers: two "To", two "From", and one
-special message buffer. The "To" message buffers are similar to slave
+special message buffer. The "To" message buffers are similar to master
 ports in gem5. These are the message buffers that this controller uses
 to send messages to other controllers in the system. The "From" message
 buffers are like slave ports. This controller receives messages on
